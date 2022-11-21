@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Page</title>
+</head>
+<body>
+	<form method="GET" id="register-form">
+		First Name = <input type="text" name="firstname" required><br>
+		Last Name = <input type="text" name="lastname" required><br>
+		Email = <input type="email" name="email" required><br>
+		Password = <input type="password" name="password" minlength="5" required><br>
+		Birthday: <input type="date" name="birthday" required><br>
+		Gender: <br>
+		<input type="radio" name="gender" value="Male">Male <br>
+		<input type="radio" name="gender" value="Female">Female <br>
+		Pets: <br>
+		<input type="checkbox" name="dog" value="Dog">Dog<br>
+		<input type="checkbox" name="cat" value="Cat">Cat<br>
+		Cars: <br>
+		<select name="car">
+			<option value="volvo">Volvo</option>
+			<option value="audi">Audi</option>
+		</select>
+		<!-- <input type="submit" value="Submit">
+		<input type="reset" value="Reset"> -->
+	</form>
+	<button type="submit" form="register-form" value="Register" name="register">Register</button>
+	<button type="reset" form="register-form">Reset</button>
+</body>
+</html>
+
+file:///Users/tengkimhan/Desktop/form.html?firstname=ww&lastname=ww&email=tengkimhan1%40gmail.com&password=ww
+
+
+file:///Users/tengkimhan/Desktop/form.html?firstname=dddddd&lastname=ddd&email=tengkimhan1%40gmail.com&password=dddddddddd&register=Register
+
+file:///Users/tengkimhan/Desktop/form.html?firstname=eeeee&lastname=eeeee&email=tengkimhan1%40gmail.com&password=sss123123&birthday=2022-11-02&gender=Male&pets=Dog&pets=Cat&register=Register
+
+file:///Users/tengkimhan/Desktop/form.html?firstname=sss&lastname=sss&email=tengkimhan1%40gmail.com&password=123123123123&birthday=2022-11-23&gender=Male&dog=Dog&cat=Cat&register=Register
+
+file:///Users/tengkimhan/Desktop/form.html?firstname=ssss&lastname=sssss&email=tengkimhan1%40gmail.com&password=123123123123&birthday=2022-11-23&gender=Male&dog=on&cat=on&register=
+
+file:///Users/tengkimhan/Desktop/form.html?firstname=kimhan&lastname=teng&email=tengkimhan1%40gmail.com&password=123456789&birthday=2022-11-03&gender=Male&dog=Dog&car=volvo&register=Register
