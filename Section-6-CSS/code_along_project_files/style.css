@@ -1,0 +1,26 @@
+body{
+    background-image: url("./backgroundImage.jpeg");
+    background-size: cover;
+}
+
+.btn{
+    background-color: white;
+    border: none;
+    color: blue;
+    cursor: pointer;
+}
+
+li{
+    list-style: none; 
+    display: inline-block;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    border: 2px solid red ;
+}
+
+p{
+    color: yellow;
+}
